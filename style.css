@@ -1,0 +1,45 @@
+section {
+    padding: 20px;
+    display: inline-block;
+}
+
+.container1 p:nth-child(3) {
+    color: hotpink;
+}
+
+.container2>p {
+    color: blue;
+}
+
+.container3 p+p {
+    color: green;
+}
+
+.container4 * {
+    color: gray;
+}
+
+.container5 a {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+.container5 a:hover {
+    text-decoration: none;
+}
+
+.container5 a:active {
+    color: greenyellow;
+    background-color: grey;
+}
+
+.container5 a:nth-child(2) {
+    color: green;
+}
+
+.container5 a:nth-child(3):hover {
+    color: purple;
+}
